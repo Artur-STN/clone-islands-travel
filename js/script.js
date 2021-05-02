@@ -8,7 +8,7 @@ function insertBodyBg(srcBody) {
 
     let bodyDetails = document.getElementById('body')
 
-    bodyDetails.style.backgroundImage = `url(../imagens/${srcBody})`
+    bodyDetails.style.backgroundImage = `url(imagens/${srcBody})`
     bodyDetails.style.backgroundSize = 'cover'
     bodyDetails.style.transition = '0.5s'
     bodyDetails.style.backgroundPosition = 'center'
