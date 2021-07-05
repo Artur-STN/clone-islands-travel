@@ -449,6 +449,8 @@ footer div img:hover {
         top: 34%;
         left: -100vw;
 
+        transition: 0.2s;
+
     }
 
     footer div {
