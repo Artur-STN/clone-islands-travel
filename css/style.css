@@ -59,10 +59,12 @@ header nav ul {
 
 header nav ul li {
 
+    background: rgba(0, 0, 0, 0.05);
     color: white;
 
     font-size: 1.5rem;
-
+    font-weight: bolder;
+    
     text-align: center;
 
     width: 160px;
@@ -73,8 +75,8 @@ header nav ul li {
 
 header nav ul li:hover {
 
-    color: #000000;
-    background: rgba(255, 255, 255, 0.1);
+    color: #03A9F4;
+    background: rgb(255, 255, 255);
 
 }
 
@@ -232,11 +234,16 @@ footer div img:hover {
 
     margin-right: 25px;
 
+    transition: 0.2s;
+
 }
 
 .labelBars:hover {
 
+    background: rgba(255, 255, 255, 0.678);
     color: #03A9F4;
+
+    box-shadow: 0 0 10px white;
 
 }
 
@@ -317,10 +324,17 @@ footer div img:hover {
         background: white;
 
         position: absolute;
-
         top: -1000px;
+        left: 0;
 
         padding: 5rem 0 0 0;
+
+        transition: 0.5s;
+
+        
+        min-height: 100vh;
+        
+        z-index: 1;
 
     }
 
@@ -332,7 +346,7 @@ footer div img:hover {
 
         text-align: center;
 
-        width: 700px;
+        width: 100vw;
 
     }
 
@@ -340,7 +354,7 @@ footer div img:hover {
 
         color: #271F30;
 
-        width: 700px;
+        width: 100vw;
 
         padding: 2.3rem 0;
 
@@ -384,9 +398,7 @@ footer div img:hover {
 
     #inputCheckBars:checked~nav {
 
-        top: 16px;
-
-        transition: 0.5s;
+        top: 0px;
 
     }
 
@@ -417,20 +429,6 @@ footer div img:hover {
         width: 500px;
 
         transition: 0.5s;
-
-    }
-
-    header nav ul {
-
-        width: 500px;
-
-    }
-
-    header nav ul li {
-
-        width: 500px;
-
-        padding: 3rem 0;
 
     }
 
@@ -495,23 +493,6 @@ footer div img:hover {
 
     }
 
-    header nav ul {
-
-        width: 400px;
-        height: 80vh;
-
-    }
-
-    header nav ul li {
-
-        font-size: 1.5rem;
-
-        width: 400px;
-
-        padding: 2.5rem 0;
-
-    }
-
     main section.divisionAllTexts {
 
         text-align: center;
@@ -547,31 +528,9 @@ footer div img:hover {
 
     }
 
-    header nav ul {
-
-        width: 100vw;
-
-    }
-
-    header nav ul li {
-        
-        width: 100vw;
-
-        padding: 3.1rem 0;
-
-    }
-
     main section.divisionAllTexts div.divisionTagP p {
 
         font-size: 1rem;
-
-    }
-
-    #inputCheckBars:checked~nav {
-
-        top: 0px;
-
-        transition: 0.5s;
 
     }
 
